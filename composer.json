@@ -1,6 +1,11 @@
 {
     "name": "arandilopez/laravel-feed-parser",
     "description": "Laravel and Lumen rss feed parser",
+    "repositories": [ {
+            "type": "vcs",
+            "url": "https://github.com/IET-OU/simplepie"
+         }
+    ],
     "require": {
         "php": ">=5.5.9",
         "simplepie/simplepie": "^1.3",
